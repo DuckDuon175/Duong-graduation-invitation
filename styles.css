@@ -217,6 +217,11 @@ h1 {
   line-height: 0.95;
 }
 
+h1 span {
+  display: block;
+  margin-top: 0.08em;
+}
+
 .details {
   display: grid;
   justify-content: center;
