@@ -219,13 +219,9 @@ h1 {
   line-height: 0.95;
 }
 
-.name-line {
-  display: block;
+.name-word {
+  display: inline;
   white-space: nowrap;
-}
-
-.name-last {
-  margin-top: 0.06em;
 }
 
 .details {
@@ -381,8 +377,8 @@ h1 {
     line-height: 0.98;
   }
 
-  .name-last {
-    margin-top: 0.02em;
+  .name-word {
+    display: block;
   }
 
   .detail-item {
