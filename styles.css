@@ -4,10 +4,10 @@
   --red-700: #b3252d;
   --ivory: #fffaf1;
   --paper: #fff1df;
-  --ink: #231a15;
-  --muted: #715d51;
-  --gold: #d39a36;
-  --gold-dark: #bd8121;
+  --ink: #2f1713;
+  --muted: #876357;
+  --gold: #e0a33a;
+  --gold-dark: #c98216;
   --line: rgba(211, 154, 54, 0.58);
   --shadow: 0 24px 70px rgba(58, 8, 8, 0.3);
 }
@@ -152,7 +152,7 @@ body::before {
 
 .eyebrow {
   margin: 0;
-  color: var(--gold-dark);
+  color: #d18a18;
   font-family: "Playfair Display", Georgia, serif;
   font-size: clamp(1.2rem, 2.6vw, 1.95rem);
   font-weight: 600;
@@ -202,6 +202,7 @@ body::before {
 
 .intro {
   margin: 0;
+  color: #34201b;
   font-family: "Playfair Display", Georgia, serif;
   font-size: clamp(1.2rem, 2.45vw, 1.85rem);
   font-weight: 500;
@@ -211,7 +212,7 @@ body::before {
 
 h1 {
   margin: clamp(12px, 2.4vw, 24px) 0;
-  color: var(--red-800);
+  color: #a31622;
   font-family: "Allura", cursive;
   font-size: clamp(4rem, 9vw, 7.5rem);
   font-weight: 400;
@@ -247,7 +248,7 @@ h1 {
   justify-content: center;
   justify-self: center;
   width: fit-content;
-  color: inherit;
+  color: #34201b;
   text-align: left;
   font-family: "Playfair Display", Georgia, serif;
   font-size: clamp(1rem, 2.1vw, 1.28rem);
@@ -271,7 +272,7 @@ h1 {
   display: grid;
   width: 34px;
   height: 34px;
-  color: var(--gold-dark);
+  color: #d18a18;
   place-items: center;
 }
 
@@ -288,7 +289,7 @@ h1 {
 .message {
   width: min(560px, 100%);
   margin: 24px auto 0;
-  color: var(--muted);
+  color: #8d5f53;
   font-size: clamp(0.92rem, 1.7vw, 1rem);
   line-height: 1.75;
 }
@@ -306,12 +307,12 @@ h1 {
   min-height: 44px;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(211, 154, 54, 0.5);
+  border: 1px solid rgba(196, 119, 24, 0.42);
   border-radius: 999px;
   padding: 0 20px;
-  color: var(--red-800);
-  background: rgba(255, 250, 241, 0.86);
-  box-shadow: 0 8px 18px rgba(106, 13, 18, 0.08);
+  color: #9d2023;
+  background: #fff4e4;
+  box-shadow: 0 8px 18px rgba(106, 13, 18, 0.06);
   font-size: 0.9rem;
   font-weight: 700;
   text-decoration: none;
@@ -323,20 +324,20 @@ h1 {
 
 .button:hover {
   transform: translateY(-1px);
-  border-color: rgba(211, 154, 54, 0.78);
-  background: #fff7ea;
-  box-shadow: 0 12px 22px rgba(106, 13, 18, 0.12);
+  border-color: rgba(177, 85, 25, 0.54);
+  background: #ffeccc;
+  box-shadow: 0 12px 22px rgba(106, 13, 18, 0.1);
 }
 
 .button.primary {
-  border-color: rgba(255, 212, 128, 0.72);
-  color: #fff;
-  background: linear-gradient(135deg, #c5363b, var(--red-900));
-  box-shadow: 0 14px 26px rgba(143, 23, 29, 0.24);
+  border-color: rgba(190, 96, 29, 0.46);
+  color: #fff8ef;
+  background: linear-gradient(135deg, #bd3534, #8f171d);
+  box-shadow: 0 12px 24px rgba(143, 23, 29, 0.18);
 }
 
 .button.primary:hover {
-  background: linear-gradient(135deg, #d7464b, #7c1117);
+  background: linear-gradient(135deg, #ca403f, #9f1f25);
 }
 
 @media (max-width: 860px) {
